@@ -40,7 +40,7 @@ var n = null;
 At a very high level , there are two types of data types in JavaScript
 1. Primitive data types: undefined, null, number, string, symbol
 2. Reference data types: Objects and Arrays
-*/ 
+*/
 
 //objects
 var marks = {
