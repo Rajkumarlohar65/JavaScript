@@ -3,14 +3,37 @@
 
 <head>
     <title> JavaScript Tutorial</title>
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .container{
+            border: 2px solid red;
+            margin: 3px 0;
+            background: cyan;
+            padding: 9px;
+        }
+        .bg-primary{
+            background-color: blueviolet;
+        }
+        .text_success{
+            background-color: white;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Welcome to this JavaScript Tutorial</h1>
-    <div class="container">
-        <button id="firstContainer">
+    <div id="firstContainer" class="container">
+        <button id="click" onclick="clicked()">
             Click me
         </button>
+        <p>This is the my best paragraph...</p>
+    </div>
+    <div class="container">
+        <p>This is a paragraph</p>
     </div>
 
     <script src="02_variables_and_datatypes.js"> </script>
@@ -21,6 +44,8 @@
     <script src="07_array_and_string_methods.js"></script>
     <script src="08_dates.js"></script>
     <script src="09_dom_manipulation.js"></script>
+    <script src="10_events.js"></script>
+    <script src="11_set_timeout_and_set_interval.js"></script>
 </body>
 
 </html>
