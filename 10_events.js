@@ -24,10 +24,10 @@
 
 // firstContainer.addEventListener('mouseup', function(){
 //     document.querySelectorAll('.container')[1].innerHTML = prevHTML;
-    // console.log("mouse up when clicked on container");
+// console.log("mouse up when clicked on container");
 // })
 
-firstContainer.addEventListener('mousedown', function(){
+firstContainer.addEventListener('mousedown', function () {
     document.querySelectorAll('.container')[1].innerHTML = "<b> we have clicked </b>"
     // console.log("mouse down when clicked on container");
 })
